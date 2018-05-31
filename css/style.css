@@ -7,19 +7,21 @@
 }
 
 header {
-    width: 1920px;
-    height: 850px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     background-color: #23232e;
 }
 
+/*----logo----*/
+
 header img {
     width: 134px;
     height: 134px;
-    margin-left: 46.5%;
-    margin-right: 46.5%;
     margin-top: 77px;
 }
+
+/*----I love design----*/
 
 header h1 {
     margin-bottom: 0;
@@ -27,82 +29,104 @@ header h1 {
     color: #fff;
     font-size: 80px;
     font-weight: 700;
-    line-height: 30px;
     text-transform: uppercase;
 }
 
+/*----I'm glad that you visited...----*/
+
 header p {
-    margin-top: 58px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 185px;
     color: #fff;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    max-width: 400px;
 }
 
-button {
-    margin-top: 180px;
-    margin-bottom: 48px;
+/*----button----*/
+
+.button {
+    height: 95px;
+    position: relative;
+}
+
+header button {
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin-left: -22.5px;
     width: 45px;
     height: 45px;
     border: 2px solid #fff;
     border-radius: 50%;
     background-color: #23232e;
-    z-index: 1;
 }
 
 header button img {
-    z-index: 2;
     margin: 0;
     padding: 0;
     width: 14px;
     height: 8px;
 }
 
+/*----background bottom----*/
+
 section {
-    height: 1042px;
-    width: 1920px;
-    background: white url("../images/-1.png");
+    height: 100%;
+    width: 100%;
+    background: white url("../images/back.png");
+    padding-top: 124px;
+    text-align: center;
 }
 
+/*----My name is Vlad Musienko...----*/
+
 section p {
-    display: inline-block;
-    margin-left: 27.5%;
-    margin-right: 27.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     color: #464b4f;
     font-size: 30px;
     font-weight: 400;
     line-height: 42px;
-    text-align: center;
 }
 section .one {
-    margin-top: 124px;
+    margin-bottom: 56px;
 }
 
 section .two {
-    margin-top: 56px;
+    margin-bottom: 119px;
 }
 
+/*----What I do----*/
+
 section h1 {
-    margin-top: 119px;
+    margin-top: 0;
+    margin-bottom: 93px;
     color: #464b4f;
     font-size: 80px;
     font-weight: 700;
-    line-height: 36px;
     text-transform: uppercase;
-    text-align: center;
 }
+
+/*----column----*/
 
 section .three {
     text-align: center;
-    margin-top: 93px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 123px;
 }
 
 section .column {
     display: inline-block;
     text-align: left;
     margin-right: 34px;
+}
+
+section .column:last-child {
+    margin-right: 0;
 }
 
 section .column h4 {
